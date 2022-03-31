@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+body {
+    font-family: 'Boogaloo', cursive;
+    margin: 0;
+    background-color: #F8F5F1;
+}
+.navbar {
+    padding: 10px;
+    background-color: #45526C;
+    margin-bottom: 50px;
+}
+.navbar a {
+    word-spacing: 1px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+}
+
+.navbar a:hover {
+    color: rgb(194, 176, 176);
+}
+
+.container {
+    background-color: #5AA897;
+    padding: 20px;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+}
+
+.pointer {
+    color: #ebe722;
+    font-size: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+#newgame-button {
+   display: none;
+   border: none;
+}
+
+#newgame-button:hover {
+    background-color: #353a44;
+    color: #fff;
+}
+
+.start-button {
+    cursor: pointer;
+    width: 100%;
+    height: 20px;
+    border: none;
+}
+
+.start-button:hover {
+    background-color: #353a44;
+    color: #fff;
+}
+
+.difficulty {
+    word-spacing: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.difficulty p {
+    font-size: 20px;
+    margin-right: 3px;
+}
+
+.select-op {
+    border: none;
+    margin-right: 10px;
+    height: 20px;
+}
+
+.select-op:hover {
+    background-color: #353a44;
+    color: #fff;
+}
+
+.game {
+    margin-top: 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sec-time, .sec-time {
+    font-size: 25px;
+}
+
+.word-show {
+    color: #d63131;
+    font-size: 60px;
+}
+
+.word-input {
+    border: none;
+    width: 60%;
+    height: 20px;
+    padding: 5px;
+}
+
+.word-input:focus {
+    background-color: #353a44;
+    color: #fff;
+}
